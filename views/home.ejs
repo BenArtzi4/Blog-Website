@@ -3,6 +3,11 @@
   <div class="centered-content">
     <h1>Home</h1>
     <p><%= StartingContent %></p>
+    <% allPosts.forEach(function(post) { %>
+    <h2><%= post.title %></h3>
+    <p><%= post.content %></p>
+
+    <% }); %>
   </div>
 </div>
 <%- include("partials/footer.ejs") %>
