@@ -97,3 +97,9 @@
 .form-group label {
   padding-top: 5px;
 }
+
+.left-post {
+  max-width: 75%;
+  padding: 20px;
+  margin: 0 auto;
+}
