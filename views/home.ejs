@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <%- include("header.ejs") %>
+<%- include("partials/header.ejs") %>
+<div class="content-container">
+  <div class="centered-content">
     <h1>Home</h1>
-
     <p><%= StartingContent %></p>
-    <%- include("footer.ejs") %>
-  </body>
-</html>
+  </div>
+</div>
+<%- include("partials/footer.ejs") %>
