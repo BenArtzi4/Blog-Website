@@ -1,0 +1,12 @@
+<!-- views/home.ejs -->
+<%- include("partials/header.ejs") %>
+  <div class="left-content">
+    <h1>Compose</h1>
+    <form action="/compose" method="POST" class="form-left">
+      <div class="form-group">
+        <input type="text" name="postTitle" placeholder="Enter your day here" />
+        <button type="submit">Publish</button>
+    </form>
+  </div>
+</div>
+<%- include("partials/footer.ejs") %>
